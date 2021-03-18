@@ -16,6 +16,6 @@ class LogServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->publishes([$this->app->basePath() . '/config' => $this->app->configPath()], 'push_log');
+        $this->publishes([dirname(dirname(dirname(__DIR__))) . '/config' => $this->app->configPath()], 'push_log');
     }
 }
