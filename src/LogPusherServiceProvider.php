@@ -15,6 +15,6 @@ class LogPusherServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->publishes([dirname(dirname(dirname(__DIR__))) . '/config' => $this->app->configPath()], 'log_pusher');
+        $this->publishes([dirname(__DIR__) . '/config' => $this->app->configPath()], 'log_pusher');
     }
 }
