@@ -1,5 +1,5 @@
 {
-    "name": "obrooko/push-log",
+    "name": "obrooko/logpusher",
     "description": "log pusher",
     "type": "library",
     "license": ["MIT"],
