@@ -1,10 +1,14 @@
 {
     "name": "obrooko/push-log",
+    "description": "log pusher",
+    "type": "library",
+    "license": ["MIT"],
     "authors": [
         {
             "name": "obrooko"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "illuminate/support": "^7.30",
         "illuminate/console": "^7.30",
