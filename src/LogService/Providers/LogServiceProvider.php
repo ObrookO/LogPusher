@@ -18,6 +18,6 @@ class LogServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/config/push_log.php' => 'app/config/push_log.php'
-        ]);
+        ], 'config');
     }
 }
