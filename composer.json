@@ -18,5 +18,12 @@
       "psr-4": {
           "LogService\\": "src/LogService"
       }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LogService\\LogServiceProvider"
+            ]
+        }
     }
 }
