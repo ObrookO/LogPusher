@@ -28,7 +28,7 @@ class PushLog
      */
     protected function setConfig()
     {
-        $this->config = $this->app['config']['log_pusher'];
+        $this->config = $this->app['config']['logpusher'];
     }
 
     /**
