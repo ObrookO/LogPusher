@@ -16,13 +16,13 @@
     },
     "autoload": {
       "psr-4": {
-          "LogService\\": "src/LogService"
+          "LogPusher\\": "src"
       }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LogService\\Providers\\LogServiceProvider"
+                "LogPusher\\LogPusherServiceProvider"
             ]
         }
     }

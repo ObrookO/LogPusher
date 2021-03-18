@@ -1,6 +1,6 @@
 <?php
 
-namespace LogService\Drivers;
+namespace LogPusher\Drivers;
 
 
 use Illuminate\Redis\RedisManager;

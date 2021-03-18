@@ -1,9 +1,9 @@
 <?php
 
-namespace LogService;
+namespace LogPusher;
 
 
-use LogService\Drivers\RedisDriver;
+use LogPusher\Drivers\RedisDriver;
 
 class PushLog
 {

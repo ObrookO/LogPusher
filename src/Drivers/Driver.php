@@ -1,6 +1,6 @@
 <?php
 
-namespace LogService\Drivers;
+namespace LogPusher\Drivers;
 
 interface Driver
 {

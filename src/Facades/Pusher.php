@@ -1,15 +1,15 @@
 <?php
 
 
-namespace LogService\Facades;
+namespace LogPusher\Facades;
 
 
 use Illuminate\Support\Facades\Facade;
 
-class PushLog extends Facade
+class Pusher extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'push_log';
+        return 'log_pusher';
     }
 }
